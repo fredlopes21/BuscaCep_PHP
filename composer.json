@@ -1,0 +1,23 @@
+{
+    "name": "maari/busca-cep_php",
+    "description": "Busca de cep online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mari0611",
+            "email": "maariana.reis@hotmail.com"
+        }
+    ],
+    "require": {
+        "php":">=7.2.0"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "maari\\buscaCep\\": "src/"
+        }
+    }
+}
